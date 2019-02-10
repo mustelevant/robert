@@ -1,0 +1,156 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 7rem; /* 16px = 1em = 100% (rem - root em)*/
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #11999E;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #132238;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  color: #EAF6F6;
+  border-width: 5px;
+  width: 3%;
+}
+
+.web {
+  text-decoration: underline;
+}
+
+.top-container {
+  background-color: #ebf0f6;
+  position: relative;
+  padding-top: 120px;
+}
+
+.middle-container {
+  background-color: #98ccd3;
+}
+
+.bottom-container {
+  background-color: #364e68;
+  line-height: 2;
+  padding: 25px 0 25px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 70px;
+  right: 500px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 500px;
+  top: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.coding-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.planet-img {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skills {
+  padding: 50px;
+}
+
+.profile {
+  padding: 100px 0;
+  line-height: 2;
+}
+
+.profile-img {
+  width: 10%;
+}
+
+.contact-me {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  line-height: 2;
+}
+
+/* Use clear to prevent wrapping.
+.planet-text {
+  clear: right;
+}
+*/
+
+.contact-description {
+  padding-bottom: 50px;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ebf0f6;
+  font-size: 20px;
+  background: #364e68;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #132238;
+  text-decoration: none;
+}
+
+.footer-link {
+  padding: 25px;
+}
+
+.copyright-text {
+  color: #EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .7rem;
+}
+
+.icons-credit {
+  font-size: .7rem;
+  color: #132238;
+}
