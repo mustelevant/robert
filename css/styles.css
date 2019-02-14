@@ -1,16 +1,14 @@
 body {
   color: #40514E;
-  margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  line-height: 2;
 }
 
 h1 {
   font-size: 7rem; /* 16px = 1em = 100% (rem - root em)*/
-  margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
   color: #11999E;
-  line-height: 2;
 }
 
 h2 {
@@ -40,88 +38,88 @@ hr {
   border-top-style: dotted;
   color: #EAF6F6;
   border-width: 5px;
-  width: 3%;
+  margin: 7% 48%;
+  width: 4%;
+  text-align: center;
+}
+
+/* Containers */
+
+.container-fluid {
+	padding: 5% 5%;
+}
+
+#top-container .container-fluid {
+  background-color: #ebf0f6;
+  padding: 5% 5% 0;
+}
+
+#middle-container {
+  background-color: #98ccd3;
+}
+
+#bottom-container {
+  background-color: #364e68;
+}
+
+/* Top Section */
+
+.name-heading {
+	margin: 7% auto 3%;
 }
 
 .web {
   text-decoration: underline;
 }
 
-.top-container {
-  background-color: #ebf0f6;
-  position: relative;
-  padding-top: 120px;
-}
-
-.middle-container {
-  background-color: #98ccd3;
-}
-
-.bottom-container {
-  background-color: #364e68;
-  line-height: 2;
-  padding: 25px 0 25px;
-}
-
 .top-cloud {
-  position: absolute;
-  top: 70px;
-  right: 500px;
+	width: 100px;
+	position: absolute;
+	right: 20%;
 }
 
 .bottom-cloud {
-  position: absolute;
-  left: 500px;
-  top: 300px;
+	width: 100px;
+	position: absolute;
+	left: 20%;
 }
 
-.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
-  line-height: 2;
+.mountain {
+	width: 40%;
+}
+
+/* Middle Section */
+
+.profile-img {
+  width: 175px;
+  margin: 2% 0;
 }
 
 .coding-img {
-  width: 20%;
+  width: 175px;
   float: left;
-  margin-right: 30px;
+  margin-right: 4%;
 }
 
 .planet-img {
-  width: 20%;
+  width: 175px;
   float: right;
-  margin-left: 30px;
+  margin-left: 4%;
 }
 
-.skills {
-  padding: 50px;
+.skill-row {
+  width: 60%;
+  margin: 10% auto;
+  text-align: left;
 }
 
-.profile {
-  padding: 100px 0;
-  line-height: 2;
-}
-
-.profile-img {
-  width: 10%;
-}
-
-.contact-me {
-  padding-top: 50px;
-  padding-bottom: 100px;
-  line-height: 2;
-}
+/* Bottom Section */
 
 /* Use clear to prevent wrapping.
 .planet-text {
   clear: right;
 }
 */
-
-.contact-description {
-  padding-bottom: 50px;
-}
 
 .btn {
   -webkit-border-radius: 28;
@@ -133,12 +131,15 @@ hr {
   background: #364e68;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  margin: 3%;
 }
 
 .btn:hover {
   background: #132238;
   text-decoration: none;
 }
+
+/* Footer Section */
 
 .footer-link {
   padding: 25px;
