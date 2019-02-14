@@ -9,6 +9,7 @@ h1 {
   font-size: 7rem; /* 16px = 1em = 100% (rem - root em)*/
   font-family: 'Sacramento', cursive;
   color: #11999E;
+  font-weight: bold;
 }
 
 h2 {
@@ -90,6 +91,10 @@ hr {
 
 /* Middle Section */
 
+#middle-container h2 {
+	font-size: 2.5rem;
+}
+
 .profile-img {
   width: 175px;
   margin: 2% 0;
@@ -136,19 +141,21 @@ hr {
 
 .btn:hover {
   background: #132238;
-  text-decoration: none;
+  color: #ebf0f6;
 }
 
 /* Footer Section */
 
 .footer-link {
-  padding: 25px;
+  padding: 0 1%;
+  color: #EAF6F6;
 }
 
 .copyright-text {
   color: #EAF6F6;
   font-family: 'Montserrat', sans-serif;
   font-size: .7rem;
+  margin: 2% 0 0;
 }
 
 .icons-credit {
